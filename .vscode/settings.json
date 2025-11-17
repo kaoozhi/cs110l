@@ -1,0 +1,10 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  // Disable GitHub Copilot inline suggestions (keeps extension installed but
+  // turns off its automatic completions)
+  "github.copilot.inlineSuggest.enable": false,
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    }
+}
